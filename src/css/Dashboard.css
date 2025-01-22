@@ -1,0 +1,169 @@
+.dashboard-container {
+    display: flex;
+    
+    background-color: #fff300;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #ffd700; /* Color dorado */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #f0e68c;
+  }
+  
+  .sidebar ul li .icon {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .submenu {
+    margin-left: 25px;
+    margin-top: 5px;
+    list-style: circle;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .logout-btn {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ff6347; /* Rojo tomate */
+  }
+  
+  
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .card .CircularProgressbar {
+    width: 70%; /* Ajusta el tamaño */
+    margin: 0 auto; /* Centrar */
+  }
+  
+  
+  .chart {
+    margin-top: 10px;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .graph {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .graph-content {
+    height: 250px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Dropdown para "G. de Recursos" */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown .arrow {
+  margin-left: auto;
+  font-size: 14px;
+  color: #333;
+}
+
+.submenu {
+  margin-left: 20px;
+  margin-top: 10px;
+  list-style: circle;
+  font-size: 16px;
+  color: #333;
+  animation: slideDown 0.3s ease;
+}
+
+.submenu li {
+  margin: 5px 0;
+}
+
+/* Animación para desplegar */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
