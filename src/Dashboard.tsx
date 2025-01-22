@@ -35,10 +35,10 @@ const Dashboard = () => {
     <div className="dashboard-container">
       {/* Sidebar */}
       <div className="sidebar">
-        <h2>📊 Dashboard</h2>
+        <h1>📊 Dashboard</h1>
         <ul>
           <li>
-            <span className="icon">📁</span>
+            <span className="icon"></span>
             <span>Proyectos</span>
           </li>
           <li>
@@ -57,7 +57,6 @@ const Dashboard = () => {
             <ul className="submenu">
               <li>Humano</li>
               <li>Materiales</li>
-              <li>Financieros</li>
             </ul>
           )}
         </ul>
@@ -66,7 +65,7 @@ const Dashboard = () => {
 
       {/* Contenido principal */}
       <div className="main-content">
-        <h2>Dashboard</h2>
+        <h2></h2>
         <div className="cards">
           <div className="card">
             <h3>Equipos</h3>
