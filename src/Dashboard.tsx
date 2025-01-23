@@ -39,18 +39,18 @@ const Dashboard = () => {
         <ul>
           <li>
             <span className="icon"></span>
-            <span>Proyectos</span>
+            <h3><span>Proyectos</span></h3>
           </li>
           <li>
-            <span className="icon">😊</span>
-            <span>Equipos</span>
+            <span className="icon"></span>
+            <h3><span>Equipos</span></h3>
           </li>
           <li
             className="dropdown"
             onClick={() => setIsSubmenuOpen(!isSubmenuOpen)} // Alterna la visibilidad del submenú
           >
-            <span className="icon">📖</span>
-            <span>G. de Recursos</span>
+            <span className="icon"></span>
+            <h3><span>G. de Recursos</span></h3>
             <span className="arrow">{isSubmenuOpen ? '▲' : '▼'}</span>
           </li>
           {isSubmenuOpen && ( // Renderiza el submenú si está abierto
