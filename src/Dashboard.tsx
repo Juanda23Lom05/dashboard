@@ -94,7 +94,7 @@ const Dashboard = () => {
             )}
           </li>
         </ul>
-        <button className="logout-btn">Cerrar Sesión</button>
+        <button className="logout-btn">Cerar Sesión</button>
       </div>
 
       <div className="main-content">
